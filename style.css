@@ -1,0 +1,87 @@
+* {
+	font-family: 'Nunito', sans-serif, 'Arial', system-ui;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+body{
+	position: relative;
+	margin: 0;
+	min-height: 100%;
+	padding-bottom: 0px;
+	box-sizing: inherit;
+}
+footer{
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+
+.channel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    /* background: rgb(148, 148, 148); */
+    background: linear-gradient(82deg, rgb(59, 59, 59) 0%, rgba(0, 145, 210, 1) 100%);
+}
+
+.logo-channel{
+    display: flex;
+    align-items: center;
+}
+.img-logo-channel {
+    width: 60px;
+    height: auto;
+    display: flex;
+    
+}
+
+.info-channel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.info-channel>a {
+    color: black;
+    text-decoration: none;
+}
+
+.channel-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.channel-status {
+    font-size: 12px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    height: 40px;
+    
+}
+.footer-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-top: 5px;
+    width: 100%;
+    color: rgb(194, 213, 230);
+}
+.selected{
+    /* background-color: rgb(213, 136, 42); */
+    color: rgb(0, 115, 255);
+}
